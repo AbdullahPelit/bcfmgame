@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8332076193052498925
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8894698507131415437, guid: 1aa151fb0d26bd3409b0013c71aef5c2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894698507131415437, guid: 1aa151fb0d26bd3409b0013c71aef5c2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894698507131415437, guid: 1aa151fb0d26bd3409b0013c71aef5c2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894698507131415437, guid: 1aa151fb0d26bd3409b0013c71aef5c2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894698507131415437, guid: 1aa151fb0d26bd3409b0013c71aef5c2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894698507131415437, guid: 1aa151fb0d26bd3409b0013c71aef5c2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894698507131415437, guid: 1aa151fb0d26bd3409b0013c71aef5c2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894698507131415437, guid: 1aa151fb0d26bd3409b0013c71aef5c2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894698507131415437, guid: 1aa151fb0d26bd3409b0013c71aef5c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894698507131415437, guid: 1aa151fb0d26bd3409b0013c71aef5c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894698507131415437, guid: 1aa151fb0d26bd3409b0013c71aef5c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894698507131415438, guid: 1aa151fb0d26bd3409b0013c71aef5c2,
+        type: 3}
+      propertyPath: m_Name
+      value: CloudObject
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1aa151fb0d26bd3409b0013c71aef5c2, type: 3}
+--- !u!1 &635335260000874595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8894698507131415438, guid: 1aa151fb0d26bd3409b0013c71aef5c2,
+    type: 3}
+  m_PrefabInstance: {fileID: 8332076193052498925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &-7667038905550875196
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635335260000874595}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 2
+--- !u!65 &8931790011582531858
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635335260000874595}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.960174, y: 0.8509251, z: 0.20000553}
+  m_Center: {x: -0.03597778, y: -0.074537456, z: 0.009541441}
+--- !u!114 &-5575768567366106456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635335260000874595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3025a91e298393f4a8d875d101da0d16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerController: {fileID: 263440353520202308, guid: 05cd3b8635c6df141adb280454241ce3,
+    type: 3}
+  particle: {fileID: 562623885874898693, guid: 2b27ef51fd776b040b5ce9d0f85d3080, type: 3}
